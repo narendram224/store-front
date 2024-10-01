@@ -1,0 +1,47 @@
+// {
+//   "editor.codeActionsOnSave": {
+//     "source.fixAll.eslint": true,
+//     "source.fixAll": true
+//   },
+//   "eslint.validate": ["javascript", "typescript "],
+//   // Add those two lines:
+//   "editor.formatOnSave": true, // Tell VSCode to format files on save
+//   "editor.defaultFormatter": "esbenp.prettier-vscode", // Tell VSCode to use Prettier as default file formatter
+//   "[typescriptreact]": {
+//     "editor.defaultFormatter": "esbenp.prettier-vscode"
+//   },
+//   "[typescript]": {
+//     "editor.defaultFormatter": "esbenp.prettier-vscode"
+//   },
+//   "typescript.tsdk": "node_modules/typescript/lib"
+
+//   // OR If want only typescript files to be formatted on save
+//   //   "[typescript]": {
+//   //     "editor.formatOnSave": true,
+//   //     "editor.defaultFormatter": "esbenp.prettier-vscode"
+//   //   }
+// }
+
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll": "explicit"
+  },
+  "eslint.validate": ["javascript", "typescript "],
+  // Add those two lines:
+  "editor.formatOnSave": true, // Tell VSCode to format files on save
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // Tell VSCode to use Prettier as default file formatter
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib"
+
+  // OR If want only typescript files to be formatted on save
+  //   "[typescript]": {
+  //     "editor.formatOnSave": true,
+  //     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  //   }
+}
